@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+artifacts/*.joblib
+artifacts/*.npz
+# The following inference artifacts are intentionally trackable:
+# artifacts/*.joblib
+# artifacts/*.npy
+# artifacts/metadata.json
